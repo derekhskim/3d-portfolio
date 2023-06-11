@@ -15,11 +15,11 @@ const Hero = () => {
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>Hi, I'm <span className='text-[#915eff]'>Derek</span></h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            With a passion for problem-solving iOS and Flutter, <br className='sm:block hidden' />I bring ideas to life through innovative app development. 
+            With a passion for iOS and Flutter development, <br className='sm:block hidden' />I bring ideas to life through innovative mobile applications. 
           </p>
         </div>
       </div>
-      
+
       <ComputersCanvas />
     </section>
   )
