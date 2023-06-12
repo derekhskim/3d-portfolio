@@ -17,6 +17,8 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
+import hcic from "./company/hcic.png";
+import goa from "./company/goa.png";
 import finest from "./company/finest.png";
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -50,6 +52,8 @@ export {
   tailwind,
   typescript,
   threejs,
+  hcic,
+  goa,
   finest,
   meta,
   shopify,
