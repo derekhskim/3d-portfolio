@@ -17,9 +17,49 @@ const Contact = () => {
 
   const [loading, setLoading] = useState(false);
 
-  const handleChange = (e) => {}
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setForm({ ...form, [name]: value })
+  }
 
-  const handleSubmit = (e) => {}
+  const handleSubmit = (e) => {
+
+    const userId = import.meta.env.VITE_EMAILJS_USER_ID;
+    const templateId = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
+    const serviceId = import.meta.env.VITE_EMAILJS_SERVICE_ID;
+
+    e.preventDefault();
+    setLoading(true);
+
+    emailjs.send(
+      serviceId,
+      templateId,
+      {
+        from_name: form.name,
+        to_name: 'Derek',
+        from_email: form.email,
+        to_email: 'dk@derek.kim',
+        message: form.message,
+      },
+      userId,
+    )
+    .then(() => {
+      setLoading(false);
+      alert('Thank you for submitting the form! I will get back to you as soon as possible.');
+
+      setForm({
+        name: '',
+        email: '',
+        message: '',
+      })
+    }, (error) => {
+      setLoading(false);
+
+      console.log(error);
+
+      alert('Something went wrong.')
+    })
+  }
 
   return (
     <div className='xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden'>
@@ -51,7 +91,7 @@ const Contact = () => {
             <input
               type='email'
               name='email'
-              value={form.name}
+              value={form.email}
               onChange={handleChange}
               placeholder="What's your email?"
               className='bg-tertiary py-4 px-6 placeholer:text-secondary text-white rounded-lg outlined-none border-none font-medium'
@@ -62,7 +102,7 @@ const Contact = () => {
             <textarea
               rows='7'
               name='message'
-              value={form.name}
+              value={form.message}
               onChange={handleChange}
               placeholder="What would you like to say?"
               className='bg-tertiary py-4 px-6 placeholer:text-secondary text-white rounded-lg outlined-none border-none font-medium'
