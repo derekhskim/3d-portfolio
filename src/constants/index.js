@@ -1,8 +1,6 @@
 import {
   javascript,
   typescript,
-  html,
-  css,
   tailwind,
   git,
   docker,
@@ -12,9 +10,6 @@ import {
   mktfy,
   tipcaclulator,
   sleeptimer,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
   flask,
   python,
@@ -78,14 +73,6 @@ const technologies = [
   {
     name: "Flask",
     icon: flask,
-  },
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
   },
   {
     name: "JavaScript",

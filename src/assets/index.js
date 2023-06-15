@@ -3,10 +3,8 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
-import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import git from "./tech/git.png";
-import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
@@ -21,9 +19,6 @@ import finest from "./company/finest.png";
 import mktfy from "./mktfy.png";
 import tipcaclulator from "./tipcalculator.png";
 import sleeptimer from "./sleeptimer.png";
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
 
 import swift from "./swift.png";
 import flutter from "./flutter.png";
@@ -35,10 +30,8 @@ export {
   github,
   menu,
   close,
-  css,
   docker,
   git,
-  html,
   javascript,
   tailwind,
   typescript,
@@ -51,9 +44,6 @@ export {
   mktfy,
   tipcaclulator,
   sleeptimer,
-  carrent,
-  jobit,
-  tripguide,
   swift,
   flutter,
   python,
