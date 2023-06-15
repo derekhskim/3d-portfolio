@@ -9,6 +9,9 @@ import {
   hcic,
   goa,
   finest,
+  mktfy,
+  tipcaclulator,
+  sleeptimer,
   carrent,
   jobit,
   tripguide,
@@ -196,67 +199,130 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "MKTFY",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "This is a graduation project for the iOS development bootcamp - Launchpad by Vog. It is an iOS app that end-users can perform CRUD on items, browse, buy and sell their belongings via iOS app.",
     tags: [
       {
-        name: "react",
+        name: "Swift",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "UIKit",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "MVC",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: mktfy,
+    source_code_link: "https://github.com/treasure3210/MKTFY",
   },
   {
-    name: "Job IT",
+    name: "Tip Calculator",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Tip Calculator using MVVM, Combine, CombineCocoa, Snapkit along with Snapshot/UI/Unit Tests.",
     tags: [
       {
-        name: "react",
+        name: "Swift",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "UIKit",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "MVVM",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: tipcaclulator,
+    source_code_link: "https://github.com/treasure3210/Tip-Calculator",
   },
   {
-    name: "Trip Guide",
+    name: "Sleep Timer",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Sleep Timer is a timer application that turns off music, video, or other features, fully customizable. Developed entire app in Android and iOS application that has following main features: Media (Music and Video) off, Screen Off, Silent Mode, Do Not Disturb Mode, Fade-out Volume, and Notification on/off.",
     tags: [
       {
-        name: "nextjs",
+        name: "Flutter",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Dart",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Riverpod",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: sleeptimer,
+    source_code_link: "https://musicoff.co/",
+  },
+  {
+    name: "MKTFY",
+    description:
+      "This is a graduation project for the iOS development bootcamp - Launchpad by Vog. It is an iOS app that end-users can perform CRUD on items, browse, buy and sell their belongings via iOS app.",
+    tags: [
+      {
+        name: "Swift",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "UIKit",
+        color: "green-text-gradient",
+      },
+      {
+        name: "MVC",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: mktfy,
+    source_code_link: "https://github.com/treasure3210/MKTFY",
+  },
+  {
+    name: "Tip Calculator",
+    description:
+      "Tip Calculator using MVVM, Combine, CombineCocoa, Snapkit along with Snapshot/UI/Unit Tests.",
+    tags: [
+      {
+        name: "Swift",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "UIKit",
+        color: "green-text-gradient",
+      },
+      {
+        name: "MVVM",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tipcaclulator,
+    source_code_link: "https://github.com/treasure3210/Tip-Calculator",
+  },
+  {
+    name: "Sleep Timer",
+    description:
+      "Sleep Timer is a timer application that turns off music, video, or other features, fully customizable. Developed entire app in Android and iOS application that has following main features: Media (Music and Video) off, Screen Off, Silent Mode, Do Not Disturb Mode, Fade-out Volume, and Notification on/off.",
+    tags: [
+      {
+        name: "Flutter",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Dart",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Riverpod",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: sleeptimer,
+    source_code_link: "https://musicoff.co/",
   },
 ];
 

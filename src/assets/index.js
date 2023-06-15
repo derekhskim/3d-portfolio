@@ -18,6 +18,9 @@ import hcic from "./company/hcic.png";
 import goa from "./company/goa.png";
 import finest from "./company/finest.png";
 
+import mktfy from "./mktfy.png";
+import tipcaclulator from "./tipcalculator.png";
+import sleeptimer from "./sleeptimer.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
@@ -45,6 +48,9 @@ export {
   hcic,
   goa,
   finest,
+  mktfy,
+  tipcaclulator,
+  sleeptimer,
   carrent,
   jobit,
   tripguide,
