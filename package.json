@@ -13,6 +13,7 @@
     "@emailjs/browser": "^3.11.0",
     "@react-three/drei": "^9.74.8",
     "@react-three/fiber": "^8.13.1",
+    "firebase": "^9.22.2",
     "framer-motion": "^10.12.16",
     "maath": "^0.6.0",
     "math-random": "^2.0.1",

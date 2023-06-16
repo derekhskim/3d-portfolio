@@ -10,6 +10,7 @@ import {
   mktfy,
   tipcaclulator,
   sleeptimer,
+  swagger,
   threejs,
   flask,
   python,
@@ -199,12 +200,19 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "MVC",
+        name: "Auth0",
         color: "pink-text-gradient",
       },
     ],
     image: mktfy,
-    source_code_link: "https://github.com/treasure3210/MKTFY",
+    links: [
+      {
+        url: 'https://github.com/derekhskim/MKTFY',
+        icon: 'github',
+      }
+    ],
+    // source_code_link: "https://github.com/derekhskim/MKTFY",
+    // icon: 'github',
   },
   {
     name: "Tip Calculator",
@@ -220,12 +228,17 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "MVVM",
+        name: "Combine",
         color: "pink-text-gradient",
       },
     ],
     image: tipcaclulator,
-    source_code_link: "https://github.com/treasure3210/Tip-Calculator",
+    links: [
+      {
+        url: 'https://github.com/derekhskim/Tip-Calculator',
+        icon: 'github',
+      }
+    ],
   },
   {
     name: "Sleep Timer",
@@ -246,52 +259,67 @@ const projects = [
       },
     ],
     image: sleeptimer,
-    source_code_link: "https://musicoff.co/",
+    links: [
+      {
+        url: 'https://play.google.com/store/apps/details?id=com.utopia.musicoff',
+        icon: 'sleeptimericon',
+      }
+    ],
   },
   {
-    name: "MKTFY",
+    name: "Stores REST API",
     description:
-      "This is a graduation project for the iOS development bootcamp - Launchpad by Vog. It is an iOS app that end-users can perform CRUD on items, browse, buy and sell their belongings via iOS app.",
+      "This project showcases a REST API that enables store and item management operations. It enables the creation, retrieval, and deletion of stores and items.",
     tags: [
       {
-        name: "Swift",
+        name: "Python",
         color: "blue-text-gradient",
       },
       {
-        name: "UIKit",
+        name: "Flask",
         color: "green-text-gradient",
       },
       {
-        name: "MVC",
+        name: "PostgreSQL",
         color: "pink-text-gradient",
       },
     ],
-    image: mktfy,
-    source_code_link: "https://github.com/treasure3210/MKTFY",
+    image: swagger,
+    links: [
+      {
+        url: 'https://store-rest-api-f4yf.onrender.com/swagger-ui',
+        icon: 'swaggericon',
+      },
+      {
+        url: 'https://github.com/derekhskim/Store_REST_API',
+        icon: 'github',
+      },
+    ],
   },
   {
-    name: "Tip Calculator",
+    name: "Stock Calculator",
     description:
       "Tip Calculator using MVVM, Combine, CombineCocoa, Snapkit along with Snapshot/UI/Unit Tests.",
     tags: [
       {
-        name: "Swift",
+        name: "SwiftUI",
         color: "blue-text-gradient",
       },
       {
-        name: "UIKit",
+        name: "StoreKit",
         color: "green-text-gradient",
-      },
-      {
-        name: "MVVM",
-        color: "pink-text-gradient",
       },
     ],
     image: tipcaclulator,
-    source_code_link: "https://github.com/treasure3210/Tip-Calculator",
+    links: [
+      {
+        url: 'https://github.com/derekhskim/Tip-Calculator',
+        icon: 'github',
+      },
+    ],
   },
   {
-    name: "Sleep Timer",
+    name: "Calendar Schedular",
     description:
       "Sleep Timer is a timer application that turns off music, video, or other features, fully customizable. Developed entire app in Android and iOS application that has following main features: Media (Music and Video) off, Screen Off, Silent Mode, Do Not Disturb Mode, Fade-out Volume, and Notification on/off.",
     tags: [
@@ -304,12 +332,51 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "Riverpod",
+        name: "Drift",
         color: "pink-text-gradient",
+      },
+      {
+        name: "SQLite",
+        color: "orange-text-gradient",
       },
     ],
     image: sleeptimer,
-    source_code_link: "https://musicoff.co/",
+    links: [
+      {
+        url: 'https://github.com/derekhskim/calendar_scheduler',
+        icon: 'github',
+      },
+    ],
+  },
+  {
+    name: "Pitch Perfect",
+    description:
+      "Pitch Perfect is developed into both Android and iOS and detects the user’s pitch. Developed entire Android & iOS application zero to one and deployed to both Apple Store and Google Play. Reached more than 1k + downloads by unique, random users.",
+    tags: [
+      {
+        name: "Flutter",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Dart",
+        color: "green-text-gradient",
+      },
+    ],
+    image: sleeptimer,
+    links: [
+      {
+        url: 'https://github.com/derekhskim/pitch_perfect',
+        icon: 'github',
+      },
+      {
+        url: 'https://play.google.com/store/apps/details?id=com.noobietubie.pitch.perfect',
+        icon: 'googleplay',
+      },
+      {
+        url: 'https://apps.apple.com/ca/app/pitch-perfect/id1637198395',
+        icon: 'applestore',
+      },
+    ],
   },
 ];
 

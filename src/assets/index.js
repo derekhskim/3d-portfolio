@@ -1,5 +1,9 @@
 import logo from "./logo.svg";
 import github from "./github.png";
+import sleeptimericon from "./sleeptimericon.png";
+import swaggericon from "./swaggericon.png";
+import googleplay from "./googleplay.png";
+import applestore from "./applestore.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -19,6 +23,7 @@ import finest from "./company/finest.png";
 import mktfy from "./mktfy.png";
 import tipcaclulator from "./tipcalculator.png";
 import sleeptimer from "./sleeptimer.png";
+import swagger from "./swagger.png";
 
 import swift from "./swift.png";
 import flutter from "./flutter.png";
@@ -28,6 +33,10 @@ import react from "./react.png";
 export {
   logo,
   github,
+  sleeptimericon,
+  swaggericon,
+  googleplay,
+  applestore,
   menu,
   close,
   docker,
@@ -44,6 +53,7 @@ export {
   mktfy,
   tipcaclulator,
   sleeptimer,
+  swagger,
   swift,
   flutter,
   python,
