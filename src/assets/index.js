@@ -23,6 +23,9 @@ import finest from "./company/finest.png";
 import mktfy from "./mktfy.png";
 import tipcaclulator from "./tipcalculator.png";
 import sleeptimer from "./sleeptimer.png";
+import stockcalculator from "./stockcalculator.png";
+import calendar from "./calendar.png";
+import pitchperfect from "./pitchperfect.png";
 import swagger from "./swagger.png";
 
 import swift from "./swift.png";
@@ -53,6 +56,9 @@ export {
   mktfy,
   tipcaclulator,
   sleeptimer,
+  stockcalculator,
+  calendar,
+  pitchperfect,
   swagger,
   swift,
   flutter,

@@ -10,6 +10,9 @@ import {
   mktfy,
   tipcaclulator,
   sleeptimer,
+  stockcalculator,
+  calendar,
+  pitchperfect,
   swagger,
   threejs,
   flask,
@@ -310,7 +313,7 @@ const projects = [
         color: "green-text-gradient",
       },
     ],
-    image: tipcaclulator,
+    image: stockcalculator,
     links: [
       {
         url: 'https://github.com/derekhskim/Tip-Calculator',
@@ -340,7 +343,7 @@ const projects = [
         color: "orange-text-gradient",
       },
     ],
-    image: sleeptimer,
+    image: calendar,
     links: [
       {
         url: 'https://github.com/derekhskim/calendar_scheduler',
@@ -362,7 +365,7 @@ const projects = [
         color: "green-text-gradient",
       },
     ],
-    image: sleeptimer,
+    image: pitchperfect,
     links: [
       {
         url: 'https://github.com/derekhskim/pitch_perfect',
