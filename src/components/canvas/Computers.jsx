@@ -5,7 +5,7 @@ import { OrbitControls, Preload, useGLTF } from '@react-three/drei';
 import CanvasLoader from '../Loader';
 
 const Computers = ({ isMobile }) => {
-  const computer = useGLTF('./desktop_pc/scene.gltf')
+  const macbook = useGLTF('./macbook/scene.gltf')
 
   return (
     <mesh>
@@ -20,10 +20,10 @@ const Computers = ({ isMobile }) => {
         shadow-mapSize={1024}
       />
       <primitive
-        object={computer.scene}
-        scale={isMobile ? 0.7 : 0.75}
-        position={isMobile ? [0, -3, -2.2] : [0, -3.25, -1.5]}
-        rotation={[-0.01, -0.2, -0.1]}
+        object={macbook.scene}
+        scale={isMobile ? 12 : 19}
+        position={isMobile ? [0, -1.75, -0.5] : [0, -3.25, 0]}
+        rotation={[-0.01, Math.PI, -0.1]}
       />
     </mesh>
   );

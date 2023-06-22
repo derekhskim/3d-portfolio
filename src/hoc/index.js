@@ -1,3 +1,4 @@
 import SectionWrapper from "./SectionWrapper";
+import HomeSectionWrapper from "./HomeSectionWrapper";
 
-export { SectionWrapper }
+export { SectionWrapper, HomeSectionWrapper }
