@@ -218,8 +218,6 @@ const projects = [
         icon: 'github',
       }
     ],
-    // source_code_link: "https://github.com/derekhskim/MKTFY",
-    // icon: 'github',
   },
   {
     name: "Tip Calculator",
@@ -320,7 +318,7 @@ const projects = [
     image: stockcalculator,
     links: [
       {
-        url: 'https://github.com/derekhskim/Tip-Calculator',
+        url: 'https://github.com/derekhskim/stock-calculator',
         icon: 'github',
       },
     ],
